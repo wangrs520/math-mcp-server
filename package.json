@@ -1,0 +1,16 @@
+{
+  "name": "math-mcp-server",
+  "version": "1.0.0",
+  "description": "A MCP server that provides basic arithmetic operations for integers.",
+  "main": "src/math-mcp-server.ts",
+  "scripts": {
+    "start": "ts-node src/math-mcp-server.ts"
+  },
+  "keywords": ["mcp", "server", "arithmetic", "operations"],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/server": "^1.0.0",
+    "typescript": "^5.0.0"
+  }
+}
