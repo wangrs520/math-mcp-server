@@ -7,7 +7,7 @@
     "mcpServers": {
       "math-mcp-server": {
         "command": "npx",
-        "args": ["ts-node", "src/math-mcp-server.ts"],
+        "args": ["ts-node", "index.ts"],
         "env": {}
       }
     }
