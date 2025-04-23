@@ -1,0 +1,15 @@
+{
+  "mcpServerName": "math-mcp-server",
+  "description": "A MCP server that provides basic arithmetic operations for integers.",
+  "installationMethod": "npx",
+  "deploymentMethod": "on_demand",
+  "config": {
+    "mcpServers": {
+      "math-mcp-server": {
+        "command": "npx",
+        "args": ["ts-node", "src/math-mcp-server.ts"],
+        "env": {}
+      }
+    }
+  }
+}
